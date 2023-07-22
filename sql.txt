@@ -6,7 +6,7 @@ SQL> create table movies
   6  director_id int
   7  );
 
-Table created.
+
 
 SQL> create table directors
   2  (
@@ -14,7 +14,6 @@ SQL> create table directors
   4  director_name varchar(30)
   5  );
 
-Table created.
 
 SQL> create table genres
   2  (
@@ -22,7 +21,6 @@ SQL> create table genres
   4  genre_name varchar(30)
   5  );
 
-Table created.
 
 SQL> create table movie_genres
   2  (
@@ -30,7 +28,6 @@ SQL> create table movie_genres
   4  genre_id int
   5  );
 
-Table created.
 
 SQL> select movies.title,director.director_name
   2  from movies
